@@ -5,7 +5,7 @@ import os
 SERVER_HOST = '0.0.0.0'
 SERVER_PORT = 5001
 BUFFER_SIZE = 4096
-SEPARATOR = ""
+SEPARATOR = "<SEPARATOR>"
 
 def start_server():
     # Create the server socket (TCP)
