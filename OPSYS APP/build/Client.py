@@ -3,7 +3,7 @@ import os
 import sys
 
 BUFFER_SIZE = 4096
-SEPARATOR = ""
+SEPARATOR = "<SEPARATOR"
 
 def send_file(server_host, filename):
     server_port = 5001
